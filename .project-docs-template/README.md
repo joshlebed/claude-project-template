@@ -11,12 +11,12 @@ Create project documentation for [PROJECT NAME].
 
 Context: [2-3 sentences describing the project and key constraints]
 
-Use the template structure at .project-docs-template/
-Create directory: .[project-slug]/
+Use the template structure at @.project-docs-template/
+Create directory: @.[project-slug]/
 Analyze: [specific areas of codebase]
 Prioritize: [top 3-5 priorities]
 
-Keep it focused and action-oriented. See .project-docs-template/README.md for best practices.
+Keep it focused and action-oriented. See @.project-docs-template/README.md for best practices.
 
 Show me INDEX.md and PROGRESS.md when done.
 ```
@@ -26,16 +26,19 @@ Show me INDEX.md and PROGRESS.md when done.
 Check the generated docs:
 
 **INDEX.md:**
+
 - Clear quick start?
 - Implementation patterns visible?
 - Links to next steps?
 
 **PROGRESS.md:**
+
 - Reasonable time estimates?
 - Correct priorities?
 - Percentage complete tracked?
 
 **NEXT_STEPS.md (if complex project):**
+
 - Step-by-step tasks?
 - Code snippets provided?
 - Clear sequencing?
@@ -43,7 +46,7 @@ Check the generated docs:
 ### 3. Start Implementation
 
 ```
-Follow INDEX.md in .[project-slug]/ and implement the next priority task.
+Follow INDEX.md in @.[project-slug]/ and implement the next priority task.
 Update PROGRESS.md after each task.
 ```
 
@@ -54,6 +57,7 @@ Update PROGRESS.md after each task.
 ### Essential Files (Always Create)
 
 1. **INDEX.md** - Agent's entry point
+
    - Quick start workflow
    - Implementation patterns (with code examples)
    - Links to other docs
@@ -69,18 +73,20 @@ Update PROGRESS.md after each task.
 ### Optional Files (Only If Needed)
 
 3. **NEXT_STEPS.md** - For complex projects (10+ tasks)
+
    - Numbered task list with exact instructions
    - Code snippets for each task
    - File paths and line numbers
    - Testing criteria per task
 
-4. **[FEATURE]_GUIDE.md** - For reusable patterns
+4. **[FEATURE]\_GUIDE.md** - For reusable patterns
+
    - When agent will use same pattern 5+ times
    - Code examples
    - Common pitfalls
    - Testing approach
 
-5. **[FEATURE]_SUMMARY.md** - Quick reference
+5. **[FEATURE]\_SUMMARY.md** - Quick reference
    - Permission matrices
    - Decision tables
    - Backend verification status
@@ -146,21 +152,25 @@ Summarize: what's done, current state, next priority.
 ### ✅ DO
 
 **Keep it focused:**
+
 - Each file has ONE clear purpose
 - Remove info once it's no longer useful
 - Consolidate overlapping content
 
 **Make it action-oriented:**
+
 - "Do this next" >> "Here's background info"
 - Code snippets >> Long explanations
 - Step-by-step >> Comprehensive analysis
 
 **Track progress visibly:**
+
 - Update percentage after each task
 - Show remaining time estimates
 - Mark completed items immediately
 
 **Provide examples:**
+
 - Code patterns with actual syntax
 - Copy-paste ready snippets
 - Working reference implementations
@@ -168,16 +178,19 @@ Summarize: what's done, current state, next priority.
 ### ❌ DON'T
 
 **Create noise:**
+
 - Don't make 10 docs when 5 will do
 - Don't duplicate info across files
 - Don't keep outdated info
 
 **Be vague:**
+
 - Don't say "update the file" - give line numbers
 - Don't say "follow the pattern" - show the code
 - Don't say "implement X" - break into steps
 
 **Lose track:**
+
 - Don't batch progress updates
 - Don't let PROGRESS.md get stale
 - Don't skip updating completion percentage
@@ -187,6 +200,7 @@ Summarize: what's done, current state, next priority.
 ## When to Use This Template
 
 ✅ **Use for:**
+
 - Multi-day projects (3+ hours of work)
 - 10+ files to modify
 - Unclear scope needing research
@@ -194,6 +208,7 @@ Summarize: what's done, current state, next priority.
 - Projects spanning multiple sessions
 
 ❌ **Skip for:**
+
 - Single file changes
 - Quick bug fixes (< 1 hour)
 - Well-defined small tasks
@@ -204,6 +219,7 @@ Summarize: what's done, current state, next priority.
 ## Example: Good vs Bad Structure
 
 ### ❌ Bad (Too Much)
+
 ```
 .[project]/
 ├── INDEX.md
@@ -218,6 +234,7 @@ Summarize: what's done, current state, next priority.
 ```
 
 ### ✅ Good (Focused)
+
 ```
 .[project]/
 ├── INDEX.md          ← Quick start + patterns
@@ -231,6 +248,7 @@ Summarize: what's done, current state, next priority.
 ## Template Update Log
 
 ### 2025-10-23
+
 - Added learnings from readonly-frontend project
 - Emphasized action-oriented documentation
 - Recommended NEXT_STEPS.md for complex projects
@@ -238,6 +256,7 @@ Summarize: what's done, current state, next priority.
 - Added examples of good vs bad structure
 
 ### 2025-10-22
+
 - Initial template creation
 
 ---
