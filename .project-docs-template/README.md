@@ -4,20 +4,13 @@
 
 ### 1. Create Project Documentation
 
-Ask your AI agent:
+After exploring the codebase, ask your AI agent:
 
 ```
-Create project documentation for [PROJECT NAME].
+Based on our conversation, create project documentation using the template at @.project-docs-template/
 
-Context: [2-3 sentences describing the project and key constraints]
-
-Use the template structure at @.project-docs-template/
-Create directory: @.[project-slug]/
-Analyze: [specific areas of codebase]
-Prioritize: [top 3-5 priorities]
-
-Keep it focused and action-oriented. See @.project-docs-template/README.md for best practices.
-
+Name the project and create an appropriate directory (e.g., @.my-project/).
+Follow the best practices in the template README.
 Show me INDEX.md and PROGRESS.md when done.
 ```
 
