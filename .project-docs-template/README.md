@@ -40,7 +40,7 @@ Check the generated docs:
 
 ```
 Follow INDEX.md in @.[project-slug]/ and implement the next priority task.
-Update PROGRESS.md after each task.
+Update PROGRESS.md and NEXT_STEPS.md after each task.
 ```
 
 ---
