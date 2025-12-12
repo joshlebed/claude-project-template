@@ -15,7 +15,6 @@
 2. Read `NEXT_STEPS.md` → Get exact next task (if complex project)
 3. Implement the changes
 4. Update `PROGRESS.md` → Mark complete, update percentage
-5. Repeat
 
 ---
 
