@@ -11,10 +11,10 @@
 
 **Start here:**
 
-1. Read `PROGRESS.md` → See what's done and what's next
-2. Read `NEXT_STEPS.md` → Get exact next task (if complex project)
+1. Read `PROGRESS.md` - See what's done and what's next
+2. Read `NEXT_STEPS.md` - Get exact next task with code snippets
 3. Implement the changes
-4. Update `PROGRESS.md` → Mark complete, update percentage
+4. Update `PROGRESS.md` and `NEXT_STEPS.md` - Mark complete, update percentage, reorder tasks, make changes. This step is essential. You will often discover things while implementing that will change the plan or raise new questions about implementation. You should update the plan as much as possible and reorganize `PROGRESS.md` and `NEXT_STEPS.md` as needed. Surface all questions and important changes to the human.
 
 ---
 
