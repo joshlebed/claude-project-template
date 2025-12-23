@@ -7,9 +7,9 @@
 After exploring the codebase, ask your AI agent:
 
 ```
-Based on our conversation, create project documentation using the template at @.project-docs-template/
+Based on our conversation, create project documentation using the templates at @.agent-project-docs/_templates/
 
-Name the project and create an appropriate directory (e.g., @.my-project/).
+Name the project and create an appropriate directory (e.g., @.agent-project-docs/my-feature/).
 Follow the best practices in the template README.
 Show me INDEX.md and PROGRESS.md when done.
 ```
@@ -39,7 +39,7 @@ Check the generated docs:
 ### 3. Start Implementation
 
 ```
-Follow INDEX.md in @.[project-slug]/ and implement the next priority task.
+Follow INDEX.md in @.agent-project-docs/<project-slug>/ and implement the next priority task.
 Update PROGRESS.md and NEXT_STEPS.md after each task.
 ```
 
@@ -134,7 +134,7 @@ Document this pattern in PROGRESS.md so you remember.
 ### After context limit or long break:
 
 ```
-Read all files in .[project]/ starting with INDEX.md.
+Read all files in @.agent-project-docs/<project-slug>/ starting with INDEX.md.
 Summarize: what's done, current state, next priority.
 ```
 
@@ -214,7 +214,7 @@ Summarize: what's done, current state, next priority.
 ### ❌ Bad (Too Much)
 
 ```
-.[project]/
+.agent-project-docs/<project>/
 ├── INDEX.md
 ├── PROGRESS.md
 ├── PROJECT_OVERVIEW.md       ← Redundant with INDEX
@@ -229,7 +229,7 @@ Summarize: what's done, current state, next priority.
 ### ✅ Good (Focused)
 
 ```
-.[project]/
+.agent-project-docs/<project>/
 ├── INDEX.md          ← Quick start + patterns
 ├── PROGRESS.md       ← Live tracking + decisions
 ├── NEXT_STEPS.md     ← Task-by-task guide (if complex)
@@ -239,6 +239,12 @@ Summarize: what's done, current state, next priority.
 ---
 
 ## Template Update Log
+
+### 2025-12-23
+
+- Restructured to use `.agent-project-docs/` umbrella directory
+- Templates now live in `_templates/` subdirectory
+- Updated all path references for new structure
 
 ### 2025-10-23
 
@@ -254,4 +260,4 @@ Summarize: what's done, current state, next priority.
 
 ---
 
-Last Updated: 2025-10-23
+Last Updated: 2025-12-23

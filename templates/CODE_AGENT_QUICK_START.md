@@ -11,20 +11,14 @@ Create a complete documentation structure for the project the human described.
 ### 1. Create Directory Structure
 
 ```bash
-mkdir .[project-slug]
-cd .[project-slug]
+mkdir -p .agent-project-docs/<project-slug>
 ```
 
-Add to `.gitignore`:
-
-```
-# [Project Name] documentation
-.[project-slug]/
-```
+The `.agent-project-docs/` directory should already exist with `_templates/` inside.
 
 ### 2. Create These Files
 
-1. **INDEX.md** - Copy from `.project-docs-template/INDEX_TEMPLATE.md` and customize
+1. **INDEX.md** - Copy from `.agent-project-docs/_templates/INDEX_TEMPLATE.md` and customize
 2. **PROGRESS.md** - Create from structure below
 3. **[PROJECT]\_OVERVIEW.md** - High-level summary (1-2 pages)
 4. **[PROJECT]\_ANALYSIS.md** - Detailed feature analysis (3-5 pages)
@@ -36,7 +30,7 @@ Add to `.gitignore`:
 Replace placeholders:
 
 - `[PROJECT NAME]`: "ReadOnly Role Support"
-- `[project-slug]`: "readonly-support" (for directory: `.readonly-support`)
+- `<project-slug>`: "readonly-support" (for directory: `.agent-project-docs/readonly-support`)
 - `[PROJECT]`: "READONLY" (for file prefixes: `READONLY_OVERVIEW.md`)
 - `[project]`: "readonly support" (in prose)
 
@@ -266,7 +260,7 @@ Before showing human:
 Show them PROGRESS.md and summarize:
 ```
 
-Created [project] documentation in .[project-slug]/:
+Created [project] documentation in .agent-project-docs/<project-slug>/:
 
 Summary:
 
@@ -306,5 +300,5 @@ Ready to start implementation when you approve.
 
 ---
 
-Last Updated: 2025-10-22
+Last Updated: 2025-12-23
 ```
