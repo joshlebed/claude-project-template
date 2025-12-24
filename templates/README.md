@@ -41,6 +41,17 @@ Check the generated docs:
 ```
 Follow INDEX.md in @.agent-project-docs/<project-slug>/ and implement the next priority task.
 Update PROGRESS.md and NEXT_STEPS.md after each task.
+If you need to ask the engineering team for clarification, more information, a decision, or a recommendation, ask as soon as possible before you continue.
+```
+
+### 4. Review and Update Documentation (Optional)
+
+```
+Look at @.agent-project-docs/<project-slug>/INDEX.md, @.agent-project-docs/<project-slug>/PROGRESS.md, @.agent-project-docs/<project-slug>/NEXT_STEPS.md, and related files.
+Given the current status of the project, is there anything that needs to be updated?
+If so, update the relevant files.
+If you need to update the plan, update @.agent-project-docs/<project-slug>/INDEX.md, @.agent-project-docs/<project-slug>/PROGRESS.md, and @.agent-project-docs/<project-slug>/NEXT_STEPS.md.
+If you need to ask the engineering team for clarification, more information, a decision, or a recommendation, ask as soon as possible before you continue.
 ```
 
 ---
